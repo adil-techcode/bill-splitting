@@ -1,0 +1,72 @@
+.active-switch span:last-child {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+th,
+td {
+  color: #6c757d !important;
+  font-size: 0.9rem;
+}
+
+.card {
+  border: none !important;
+  min-height: 50vh;
+}
+
+.participant-list-item {
+  position: relative;
+  display: flex;
+}
+
+ul {
+  padding: 0px;
+}
+
+.participant-list-item .remove-participant-icon {
+  position: absolute;
+  right: 0px;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.participant-list-item:hover .remove-participant-icon {
+  opacity: 1;
+}
+
+aside .card-body {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.participant-list-item .participant-name::first-letter {
+  text-transform: uppercase;
+}
+
+.partcipant-name {
+  font-size: 1rem;
+}
+
+.partcipant-name a {
+  text-decoration: none;
+  color: black;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow: auto;
+}
+
+.react-autosuggest__input {
+  width: 100% !important;
+  padding: 1.2rem 0.75rem;
+}
+
+/* Modal */
+
+/* #multiselectContainerReact span {
+    background-color: #eef3fd !important;
+    color: black;
+  }  */

@@ -1,0 +1,26 @@
+th,
+td {
+  color: #6c757d !important;
+  font-size: 0.9rem;
+}
+
+.card {
+  border: none !important;
+}
+
+aside .card-body {
+  padding-left: 15px !important;
+  padding-right: 20px !important;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow: auto;
+}
+
+.participant-summary div p {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem !important;
+  font-weight: bold;
+}

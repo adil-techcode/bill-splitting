@@ -1,0 +1,27 @@
+
+
+.active {
+  background-color: rgba(248, 169, 22, 0.418);
+  color: rgb(255, 166, 0);
+  border-radius: 10px;
+  padding: 2px 10px;
+  font-size: 10px;
+  height: 20px;
+  display: inline;
+}
+
+.inactive {
+  background-color: rgba(128, 0, 128, 0.301);
+  color: purple;
+  border-radius: 10px;
+  padding: 2px 10px;
+  height: 20px;
+  font-size: 10px;
+  display: inline;
+}
+
+
+.MuiAvatarGroup-avatar{
+  height: 35px !important;
+  width: 35px !important;
+}

@@ -1,0 +1,49 @@
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#sidebar-wrapper .list-group:hover {
+  background-color: #eef3fd;
+}
+
+#sidebar-wrapper .list-group  a:active{
+  background-color: #eef3fd;
+}
+
+.nav-active{
+  background-color: #eef3fd !important;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+.main-page-content {
+  min-height: 100vh;
+}
+
+.wrapper-toggled #sidebar-wrapper {
+  margin-left: -15rem;
+  display: none;
+}
+
+/* Add styles for showing the sidebar */
+/* .show-sidebar {
+    display: block;
+    transition: width 0.3s ease-in-out;
+  } */
+
+/* Add styles for hiding the sidebar */
+/* .hide-sidebar {
+    display: none;
+    transition: width 0.3s ease-in-out;
+  } */
+
+.react-autosuggest__suggestions-container {
+  width: 100% !important;
+}
