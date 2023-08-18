@@ -45,6 +45,7 @@ import Error401Page from "../screens/errroPages/unauthorized401";
 
 //App info
 import Terms from "../screens/Terms&Condition/terms";
+import Policy from "../screens/privacyPolicy/privacypolicy";
 
 function Router() {
   const ProtectedRoute = ({ children }) => {
@@ -156,7 +157,8 @@ function Router() {
 
          {/* Website Information pages */}
          <Route path="/terms-and-conditions" element={<Terms />} />
-
+         <Route path="/privacy-and-policy" element={<Policy />} />
+         
         </Routes>
       </BrowserRouter>
     </Provider>

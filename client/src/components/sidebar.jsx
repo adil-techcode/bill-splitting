@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { setBaseCurrency } from "../reduxStore/userSlice";
 import CurrencyConversion from "../services/currencyExchange/CurrencyConversion";
+import { FiShield } from 'react-icons/fi';
 
 
 
@@ -108,6 +109,17 @@ const SideBar = ({ isOpen }) => {
                 <span className="mx-1"> Expenses </span>
               </a>
             </div>
+
+            <div className={`list-group list-group-flush my-1 ${window.location.pathname === "/user/expense" ? "nav-active" : ""} `}>
+              <a
+                href="http://localhost:3000/privacy-and-policy"
+                className="list-group-item list-group-item-action  bg-transparent  fw-bold"
+              >
+                <FiShield size={20} style={{ fill: 'black' }} />
+                <span className="mx-1"> Privacy Policy </span>
+              </a>
+            </div>
+
             <div className="list-group list-group-flush my-1 ">
               <a
                 onClick={() => setCurrencyModal(true)}
@@ -117,6 +129,8 @@ const SideBar = ({ isOpen }) => {
                 <span className="mx-1"> Setting </span>
               </a>
             </div>
+
+
           </motion.div>
         )}
       </AnimatePresence>
